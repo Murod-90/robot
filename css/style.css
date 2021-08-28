@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +11,10 @@
 
 :root{
 	--yag: 'Yanone Kaffeesatz';
+}
+
+:root{
+  --open: 'Open Sans';
 }
 
 body {
@@ -137,4 +141,151 @@ body {
 .menu__close{
 	text-align: end;
 }
+
+
+.umar__after{
+  font-family: 'Yanone Kaffeesatz';
+  margin-left: 390px;
+  margin-top: 70px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  color: #3D3D3D;
+
+}
+.umar__container{
+  margin-left: 390px;
+  width: 1102px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 26px;
+}
+
+.umar__new{
+	width: 256px;
+	height: 382px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 12px;
+	
+}
+
+.umar__new:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  
+}
+
+.umar__sale{
+	display: flex;
+	justify-content: space-between;
+  margin-top: 18px;
+}
+
+.umar__chegirma{
+  width: 46px;
+  height: 33px;
+  background: #FF900D;
+  border-radius: 55px;
+  margin-left: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.umar__xit{
+  width: 46px;
+  height: 33px;
+  color: #FF900D;
+  border: 1px solid #FF900D;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: 18px;
+}
+
+.umar__xit-wc{
+  width: 96px;
+  border: 1px solid #5AA039;
+  color: #5AA039;
+}
+
+.umar__img{
+  margin-top: 6px;
+}
+
+.umar__link{
+  font-size: 12px;
+  margin-left: 18px;
+  margin-top: 8px;
+  color: #3D3D3D80;
+
+}
+
+.umar__text{
+  margin-left: 18px;
+}
+
+.umar__price{
+  font: var(--open);
+  color: #3D3D3D;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+
+.umar__price-color{
+ color: rgba(61, 61, 61, 0.5); 
+  margin-left: 12px;
+  list-style: inside;
+}
+
+.umar__line{
+  display: flex;
+  width: 75px;
+  color: #3D3D3D80;
+  margin-left: 115px;
+  margin-top: -17px;
+  
+}
+
+.umar__icon{
+  font-size: 22px;
+  color: rgba(61, 61, 61, 0.5);
+  margin-top: 12px;
+}
+
+.umar__btn{
+  width: 118px;
+  height: 36px;
+  color: white;
+  background: #5AA039;
+  border-radius: 12px;
+  border: 0px;
+  margin-left: 18px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.umar__btn:hover{
+  background: #FF900D;
+  
+}
+.umar__icon-ml44{
+  margin-left: 38px;
+  margin-right: 9px;
+  
+}
+
+
+
+
 
